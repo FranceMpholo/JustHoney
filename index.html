@@ -1,0 +1,429 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JUST HONEY | Raw Natural Honey</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fffdf8;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(to right,#f9c74f,#f8961e);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 25px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
+}
+
+section{
+    margin-bottom:60px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#c67c00;
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.product-card{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    align-items:center;
+    justify-content:center;
+}
+
+.product-image{
+    max-width:400px;
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.product-details{
+    max-width:500px;
+}
+
+.price{
+    font-size:2rem;
+    color:#f8961e;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.features{
+    list-style:none;
+}
+
+.features li{
+    margin:10px 0;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.15);
+}
+
+.review-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    max-width:700px;
+    margin:auto;
+}
+
+.stars{
+    font-size:30px;
+    cursor:pointer;
+    color:#ccc;
+}
+
+.star.active{
+    color:gold;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+button{
+    background:#f8961e;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e67e00;
+}
+
+.review-list{
+    margin-top:20px;
+}
+
+.review-item{
+    background:#fafafa;
+    padding:15px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.order-form{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.social-link{
+    color:#f9c74f;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍯 JUST HONEY</h1>
+    <p>Fresh Raw Natural Honey From Local Farms</p>
+    <h2 style="color:white;">500g Jar - R130</h2>
+
+    <a class="btn"
+    href="https://wa.me/27768854017?text=Hello%20JUST%20HONEY,%20I%20would%20like%20to%20place%20an%20order.">
+    Order on WhatsApp
+    </a>
+</header>
+
+<section class="container">
+    <div class="about">
+        <h2>About Us</h2>
+        <p>
+            JUST HONEY provides pure, raw natural honey harvested from trusted
+            local farms. Our honey is unfiltered and non-irradiated to preserve
+            its natural flavour, aroma and goodness.
+        </p>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Our Product</h2>
+
+    <div class="product-card">
+
+        <!-- Replace image names with your uploaded photos -->
+        <img src="images/honey1.jpg" alt="Just Honey" class="product-image">
+
+        <div class="product-details">
+            <h3>JUST HONEY - 500g</h3>
+
+            <div class="price">R130</div>
+
+            <ul class="features">
+                <li>✔ Raw Natural Honey</li>
+                <li>✔ Unfiltered</li>
+                <li>✔ Non-Irradiated</li>
+                <li>✔ Fresh From Local Farms</li>
+            </ul>
+
+            <a class="btn"
+            href="https://wa.me/27768854017?text=Hello%20JUST%20HONEY,%20I%20want%20to%20buy%20a%20500g%20jar%20for%20R130.">
+            Buy Now
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Gallery</h2>
+
+    <div class="gallery">
+        <img src="images/honey1.jpg" alt="Honey">
+        <img src="images/honey2.jpg" alt="Honey">
+        <img src="images/honey3.jpg" alt="Honey">
+    </div>
+</section>
+
+<section class="container">
+    <h2>Customer Reviews</h2>
+
+    <div class="review-box">
+
+        <div class="stars" id="stars">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        </div>
+
+        <input type="text" id="name" placeholder="Your Name">
+
+        <textarea id="comment"
+        placeholder="Write your review"></textarea>
+
+        <input type="file" id="photo">
+
+        <button onclick="submitReview()">
+            Submit Review
+        </button>
+
+        <div class="review-list" id="reviewList"></div>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Order Form</h2>
+
+    <div class="order-form">
+
+        <input type="text" id="customerName"
+        placeholder="Your Name">
+
+        <input type="tel" id="customerPhone"
+        placeholder="Phone Number">
+
+        <input type="number" id="quantity"
+        placeholder="Quantity">
+
+        <textarea id="message"
+        placeholder="Additional Message"></textarea>
+
+        <button onclick="sendOrder()">
+            Send Order
+        </button>
+
+    </div>
+</section>
+
+<section class="container contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>WhatsApp:</strong> +27 76 885 4017</p>
+
+    <p><strong>Email:</strong>
+    masilofrance5@gmail.com</p>
+
+    <p><strong>Location:</strong>
+    Mamelodi West A5</p>
+
+    <p>
+        <a class="social-link"
+        href="https://www.facebook.com/share/1CfRhUYjyn/"
+        target="_blank">
+        Facebook Page
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 JUST HONEY. All Rights Reserved.</p>
+</footer>
+
+<script>
+
+let selectedRating = 0;
+
+const stars = document.querySelectorAll('.star');
+
+stars.forEach(star => {
+
+    star.addEventListener('click', () => {
+
+        selectedRating = star.dataset.value;
+
+        stars.forEach(s => s.classList.remove('active'));
+
+        for(let i=0;i<selectedRating;i++){
+            stars[i].classList.add('active');
+        }
+
+    });
+
+});
+
+function submitReview(){
+
+    const name =
+    document.getElementById("name").value;
+
+    const comment =
+    document.getElementById("comment").value;
+
+    if(name === "" || comment === ""){
+        alert("Please complete all fields.");
+        return;
+    }
+
+    const review =
+    document.createElement("div");
+
+    review.classList.add("review-item");
+
+    review.innerHTML =
+    "<strong>" + name + "</strong><br>" +
+    "Rating: " + selectedRating + "/5 ⭐<br><br>" +
+    comment;
+
+    document
+    .getElementById("reviewList")
+    .appendChild(review);
+
+    document.getElementById("name").value="";
+    document.getElementById("comment").value="";
+}
+
+function sendOrder(){
+
+    let name =
+    document.getElementById("customerName").value;
+
+    let phone =
+    document.getElementById("customerPhone").value;
+
+    let quantity =
+    document.getElementById("quantity").value;
+
+    let message =
+    document.getElementById("message").value;
+
+    let whatsappMessage =
+    `Hello JUST HONEY,
+
+Name: ${name}
+Phone: ${phone}
+Quantity: ${quantity}
+
+Message:
+${message}`;
+
+    let url =
+    "https://wa.me/27768854017?text=" +
+    encodeURIComponent(whatsappMessage);
+
+    window.open(url,"_blank");
+}
+
+</script>
+
+</body>
+</html>
+```
